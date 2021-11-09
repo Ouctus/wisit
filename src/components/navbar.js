@@ -9,7 +9,7 @@ export class Navbar extends Component{
         return(
             <div>
             <header>
-            <nav className="bg-theme navbar navbar-expand-lg navbar-light ">
+            <nav className="bg-white shadow navbar navbar-expand-lg navbar-light ">
             <div className="container">
                 <a className="navbar-brand" href="/"><img src="/images/logo.jpg" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

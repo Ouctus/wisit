@@ -36,12 +36,13 @@ import {Agenda} from '../src/components/software/Agenda'
 import {Gsa} from '../src/components/software/Gsa'
 
 
-
+import AddToHomescreen from 'react-add-to-homescreen';
 
 
 function App() {
   return (
     <div>
+      
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />

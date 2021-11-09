@@ -4,10 +4,33 @@ p{margin-bottom: 5px!important;}
 
 .navbar-brand img{width: 120px;} 
 .bg-theme{background: #adcbe3;}
-body{font-family: 'Roboto', sans-serif;}
+body{font-family: "Trebuchet MS" ,"Georgia","verdana";}
 .navbar-nav .nav-link{font-size: 16px;
     font-weight: bold;}
 #hometab h2{font-size: 18px;font-weight: bold;text-transform: capitalize;}
+.homecard .masn{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    margin: 0.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+}
+.homecard .col-md-4{display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    -webkit-transition: 1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;}
 #hometab .nav-item {
     width: 25%; }
 #hometab button{width: 100%;}

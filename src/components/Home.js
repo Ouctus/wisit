@@ -140,7 +140,7 @@ export class Home extends Component{
                     </div>
                     
                     <div className="homecard pt-5 pb-5">
-                        <div className="row">
+                        <div className="masn">
                             <div className="col-12 col-md-4">
                                 <div className="card">
                                     <h5>Seminare Verwalten und Verkaufen mit Seminrs.com</h5>
